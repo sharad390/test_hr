@@ -1,0 +1,15 @@
+2024-04-30T10:10:31,037  INFO [main] LoggerManager:17 - ------- Selected environment ------- qa
+2024-04-30T10:10:31,045  INFO [main] LoggerManager:17 - ------- Selected environment ------- qa
+2024-04-30T10:10:31,047  INFO [main] LoggerManager:17 - ------- Selected environment ------- qa
+2024-04-30T10:10:31,048  INFO [main] LoggerManager:17 - ------- Selected environment ------- qa
+2024-04-30T10:10:31,050  INFO [main] LoggerManager:17 - ------- Selected environment ------- qa
+2024-04-30T10:10:31,052  INFO [main] LoggerManager:17 - ------- Selected environment ------- qa
+2024-04-30T10:10:31,054  INFO [main] LoggerManager:17 - ------- Selected environment ------- qa
+2024-04-30T10:10:31,197  INFO [main] LoggerManager:17 - ------- Selected environment ------- qa
+2024-04-30T10:10:31,314  INFO [main] LoggerManager:17 - ------- Selected environment ------- qa
+2024-04-30T10:10:34,862  INFO [main] LoggerManager:17 - Verifying LoginPage Title
+2024-04-30T10:10:34,924  INFO [main] LoggerManager:17 - Verifying LoginPage Components
+2024-04-30T10:10:34,932  INFO [main] LoggerManager:17 - ======== into verifyLogin() ========
+2024-04-30T10:10:35,560  INFO [main] LoggerManager:17 - ======== Username: 00001========
+2024-04-30T10:10:35,757  INFO [main] LoggerManager:17 - ======== Password: Byte@123========
+2024-04-30T10:10:37,107  INFO [main] LoggerManager:17 - ----- Quitting browser -----

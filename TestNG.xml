@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="hrms">
+<listeners>
+		<listener class-name="hrms.testlisteners.TestListener" />
+	</listeners>
+	
+	<test thread-count="1" name="Login Test Cases" enabled="true">
+		<classes>
+			<class name="hrms.testcases.LoginPageTest">
+				<!-- <methods>
+					<include name="verifyLoginPageTitle"></include> 
+					<include name="verifyLoginPageComponents"></include> 
+					<include name="verifyValidLogin"></include>
+					<include name="verifyValidLoginEnterKeyPress"></include> 
+					<include name="clickBrowserBackTest"></include>
+					<include name="InvalidUserValidPassword"></include>
+					<include name="validUserInvalidPassword"></include>
+					<include name="InvalidUserInvalidPassword"></include>
+					<include name="showPasswordFunctionality"></include>
+					<include name="emptyUserEmptyPassword"></include> 
+					<include name="VerifyChooseDifferentPortal"></include>
+					<include name="VerifyForgotPasswordButtonClick"></include>
+					<include name="VerifyForgotPasswordPageComponents"></include>	
+				    <include name="verifySimultaneousLoginOnSameBrowser"></include>					
+					<include name="verifyLoginDiffUsersOnDifferentBrowsers"></include>			
+				</methods> -->
+			</class>
+		</classes>
+	</test>
+	
+	<test thread-count="1" name="dashboard Test Cases" enabled="false">
+		<classes>
+			<class name="hrms.testcases.DashboardPageTest">				
+			</class>
+		</classes>
+	</test>
+	
+	
+		<test thread-count="1" name="uploadexcel Test Cases" enabled="false">
+		<classes>
+			<class name="hrms.testcases.UploadExcelPageTest">				
+			</class>
+		</classes>
+	</test>
+	
+			<test thread-count="1" name="Logout Test Cases" enabled="false">
+		<classes>
+			<class name="hrms.testcases.LogoutPageTest">				
+			</class>
+		</classes>
+	</test>
+	
+	
+</suite> 
+
+
+
